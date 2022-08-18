@@ -61,10 +61,9 @@ public class MainActivity extends AppCompatActivity {
             }
 
             mAMBinding.resultTextView.setText("At the current rate of " + interestRate +
-                    " saving '\'" + monthlySavings + " a month you will have futureSavings by $" + retirementAge);
+                    " saving $" + monthlySavings + " a month you will have $x by " + retirementAge);
 
-            // "At the current rate of $interestRate%, saving \$$monthly a month you will have
-            //  \$${String.format("%f", futureSavings)} by $retirementAge."
+            // At the current rate of $interestRate%, saving $$monthly a month you will have $X by $retirementAge.
 
         } catch (Exception e) {
             Analytics.trackEvent(e.toString());
