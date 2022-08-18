@@ -3,6 +3,7 @@ package com.adycoder.retirementcalculator;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @SuppressLint("SetTextI18n")
     private void analyticsTrackEvent() {
         try {
 
@@ -57,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
             if (retirementAge <= currentAge) {
                 Analytics.trackEvent("wrong_age", properties);
             }
+
+            mAMBinding.resultTextView.setText("At the current rate of " + interestRate +
+                    " saving '\'" + monthlySavings + " a month you will have futureSavings by $" + retirementAge);
+
+            // "At the current rate of $interestRate%, saving \$$monthly a month you will have
+            //  \$${String.format("%f", futureSavings)} by $retirementAge."
 
         } catch (Exception e) {
             Analytics.trackEvent(e.toString());
