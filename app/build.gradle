@@ -2,12 +2,6 @@ plugins {
     id 'com.android.application'
 }
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(11)
-    }
-}
-
 android {
     compileSdk 32
 
