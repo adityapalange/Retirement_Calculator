@@ -7,4 +7,5 @@
     <string name="planned_retirement_age">Planned retirement age</string>
     <string name="current_savings">Current savings</string>
     <string name="calculate_retirement">Calculate retirement</string>
+    <string name="at_the_current_rate">At the current rate, with your current monthly savings you will have $1,000,000 by 65.</string>
 </resources>
