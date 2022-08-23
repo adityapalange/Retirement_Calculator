@@ -1,10 +1,15 @@
 <resources>
     <string name="app_name">RetirementCalculator</string>
-    <string name="app_secret">80edfe35-1931-463e-bbfc-382ae2775078</string>
+    
+    <string name="app_secret">ad804675-e5a6-4666-9d5f-9b1e0e89a7ca</string>
+    
+    <string name="app_secret_2">80edfe35-1931-463e-bbfc-382ae2775078</string>
+    
     <string name="monthly_savings">Monthly savings</string>
     <string name="yearly_interest_rate">Yearly interest rate</string>
     <string name="your_current_age">Your current age</string>
     <string name="planned_retirement_age">Planned retirement age</string>
     <string name="current_savings">Current savings</string>
     <string name="calculate_retirement">Calculate retirement</string>
+    <string name="at_the_current_rate">At the current rate, with your current monthly savings you will have $1,000,000 by 65.</string>
 </resources>
