@@ -60,14 +60,36 @@ public class MainActivity extends AppCompatActivity {
                 Analytics.trackEvent("wrong_age", properties);
             }
 
-            mAMBinding.resultTextView.setText("At the current rate of " + interestRate +
-                    " saving $" + monthlySavings + " a month you will have $x by " + retirementAge);
+            float futureSavings = calculateRetirement(interestRate, currentSavings, monthlySavings,
+                    (retirementAge - currentAge) * 12);
 
-            // At the current rate of $interestRate%, saving $$monthly a month you will have $X by $retirementAge.
+            mAMBinding.resultTextView.setText("At the current rate of " + interestRate +
+                    "%, saving $" + monthlySavings + " a month you will have $" + futureSavings +
+                    " by " + retirementAge + ".");
 
         } catch (Exception e) {
             Analytics.trackEvent(e.toString());
         }
+    }
+
+    private float calculateRetirement(float interestRate, float currentSavings,
+                                      float monthlySavings, int numMonths) {
+
+        float calcFloatVal = (float) 1 + interestRate / (float) 100 / (float) 12;
+        float futureSavings = currentSavings * (float) Math.pow(calcFloatVal, numMonths);
+
+        int i = 1;
+        if (i <= numMonths) {
+            while (true) {
+                futureSavings += monthlySavings * (float) Math.pow(calcFloatVal, i);
+                if (i == numMonths) {
+                    break;
+                }
+                ++i;
+            }
+        }
+
+        return futureSavings;
     }
 
 }
