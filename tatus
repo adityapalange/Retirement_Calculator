@@ -1,0 +1,252 @@
+[33mcommit aab04379b97e92b34544ca2cb894f370ced25541[m[33m ([m[1;36mHEAD -> [m[1;32mfeature-3[m[33m, [m[1;31morigin/feature-3[m[33m)[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Tue Aug 23 18:25:45 2022 +0530
+
+    Add retirement calculation
+
+[33mcommit 0ef94b98e069461ecd2442c5697ffcb2f0ab8afe[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Merge: e901801 864b44c
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Tue Aug 23 15:59:17 2022 +0530
+
+    Merge pull request #15 from adityapalange/feature-2
+    
+    Update App Secret String
+
+[33mcommit 864b44c324b1532a00cdf3174b13f5cd58c1b8c1[m
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Tue Aug 23 15:49:17 2022 +0530
+
+    Update with test and master branch badges
+
+[33mcommit aa64cff8018b3e8d80f0061cc23b408606a714bc[m
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Sun Aug 21 17:41:39 2022 +0530
+
+    Update App Secret String
+
+[33mcommit e901801fca678b36e18f7b3c0846a09a7ec7f0dc[m
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Sun Aug 21 17:36:13 2022 +0530
+
+    Update README
+
+[33mcommit 80ba294601770f95137f2f24ded051ccce04b5b9[m
+Merge: db3cbe0 56f7478
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Fri Aug 19 16:53:06 2022 +0530
+
+    Merge pull request #14 from adityapalange/java_jdk_gradle
+    
+    updated java jdk 17, JAVA_HOME 17, classpath gradle plugin 7.5
+
+[33mcommit 56f74786e693c7f4a4f2357ce809efcba4ca9fb5[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Fri Aug 19 16:49:57 2022 +0530
+
+    updated java jdk 17, JAVA_HOME 17, classpath gradle plugin 7.5
+
+[33mcommit db3cbe0e1985d13f3347967eef6bc0dc3dd8c382[m
+Merge: 3543437 6bb7ac3
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Fri Aug 19 16:08:25 2022 +0530
+
+    Merge pull request #13 from adityapalange/java_jdk_gradle
+    
+    Java jdk gradle
+
+[33mcommit 6bb7ac3f8fed0a5b0b2e5b706f1b43b049a5400f[m
+Merge: e74a666 d78af24
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Fri Aug 19 16:05:59 2022 +0530
+
+    Merge remote-tracking branch 'origin/java_jdk_gradle' into java_jdk_gradle
+
+[33mcommit e74a66670a70bfd2990784f9df49523d9c348480[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Fri Aug 19 16:02:28 2022 +0530
+
+    updated java jdk 11  JAVA_HOME 3
+
+[33mcommit 35434378a4478fa4479c6aace7b6f577fb90322d[m
+Merge: 49c58c1 d78af24
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Fri Aug 19 15:53:18 2022 +0530
+
+    Merge pull request #12 from adityapalange/java_jdk_gradle
+    
+    updated java jdk 11  JAVA_HOME 2
+
+[33mcommit d78af241e4494614290a571c7e003946913fdbc1[m
+Merge: b603789 49c58c1
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Fri Aug 19 15:52:59 2022 +0530
+
+    Merge branch 'dev' into java_jdk_gradle
+
+[33mcommit b603789e18beac2267c7b1c05a377715b12952b2[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Fri Aug 19 15:51:14 2022 +0530
+
+    updated java jdk 11  JAVA_HOME 2
+
+[33mcommit 49c58c1dd531c8d4a41a40c9a2d96544bdf4bdfa[m
+Merge: ace3167 df08793
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Fri Aug 19 14:43:03 2022 +0530
+
+    Merge pull request #11 from adityapalange/java_jdk_gradle
+    
+    updated java jdk 11  JAVA_HOME
+
+[33mcommit df0879337be7b03ebefa91a7f49c911b3cbbcb70[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Fri Aug 19 14:42:04 2022 +0530
+
+    updated java jdk 11  JAVA_HOME
+
+[33mcommit ace316799f3ed5f1222bdc4dde52cd68e6964eb6[m
+Merge: 5230b6b 3e48534
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 18:59:10 2022 +0530
+
+    Merge pull request #10 from adityapalange/java_jdk_gradle
+    
+    updated gradle jdk 11 1
+
+[33mcommit 3e485347a462c16a92c560324772df04e4a8fbdd[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Thu Aug 18 18:58:20 2022 +0530
+
+    updated gradle jdk 11 1
+
+[33mcommit 5230b6bc8c5b87a7865eb31116b008d26e95888e[m
+Merge: 7c4f2c8 b1b7cc4
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 18:40:29 2022 +0530
+
+    Merge pull request #9 from adityapalange/java_jdk_gradle
+    
+    updated gradle jdk 17 1
+
+[33mcommit b1b7cc493b1b4b97988f2f52d99c16bc77ec746a[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Thu Aug 18 18:38:51 2022 +0530
+
+    updated gradle jdk 17 1
+
+[33mcommit 7c4f2c8647c73826947b1a17da236bbd486e9dbc[m
+Merge: a87e7dc 3be54a9
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 18:23:21 2022 +0530
+
+    Merge pull request #8 from adityapalange/java_sdk_17
+    
+    updated gradle.properties file 4
+
+[33mcommit 3be54a9a09502b238bcefd1e4f2f21b40e84194e[m
+Merge: d9230dc a87e7dc
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 18:23:10 2022 +0530
+
+    Merge branch 'dev' into java_sdk_17
+
+[33mcommit d9230dc82866c7e11701089f2b108704919c0ba5[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Thu Aug 18 18:08:33 2022 +0530
+
+    updated gradle.properties file 4
+
+[33mcommit a87e7dc4516129481635d4ac490a48292628451a[m
+Merge: 8d1b692 df1c03f
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 17:58:15 2022 +0530
+
+    Merge pull request #7 from adityapalange/java_sdk_17
+    
+    updated gradle.properties file 3
+
+[33mcommit df1c03fb40e861fe738f2d427e0170cf0b7bc40d[m
+Merge: fb6d10a 8d1b692
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 17:57:47 2022 +0530
+
+    Merge branch 'dev' into java_sdk_17
+
+[33mcommit fb6d10ad1faac2959a5595b5b7dcd5861b31e1b4[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Thu Aug 18 17:56:25 2022 +0530
+
+    updated gradle.properties file 3
+
+[33mcommit 8d1b692d96540396fd694f8a024af011ca2005c3[m
+Merge: 80fac03 c5847fb
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 17:43:30 2022 +0530
+
+    Merge pull request #6 from adityapalange/revert-5-java_sdk_17
+    
+    Revert 5 java sdk 17
+
+[33mcommit c5847fb0307c8e9d00c0869250b9a9bc2a0dadbf[m
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 17:42:43 2022 +0530
+
+    Revert "Java sdk 17"
+
+[33mcommit 932db79a0e5b8f4dde5144fb43fb3f8f6f89e82e[m
+Merge: f978641 4cfeff9
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 17:42:11 2022 +0530
+
+    Merge pull request #5 from adityapalange/java_sdk_17
+    
+    Java sdk 17
+
+[33mcommit 4cfeff928ace23d9a77d99d335dd280008d5d884[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Thu Aug 18 17:36:46 2022 +0530
+
+    updated gradle.properties file 2
+
+[33mcommit 80fac03675fb931aa48b79db2e76009f5714a3b1[m
+Merge: 6c782dd 546bc2f
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 17:30:12 2022 +0530
+
+    Merge pull request #4 from adityapalange/java_sdk_17
+    
+    updated gradle.properties file
+
+[33mcommit 546bc2fe052ee229e1e44568fc957fa10c5ef8b8[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Thu Aug 18 17:27:59 2022 +0530
+
+    updated gradle.properties file
+
+[33mcommit 6c782dd1e0523c3e3b7b68f9297437a10d7775cc[m
+Merge: d48160e 62ed930
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 17:01:41 2022 +0530
+
+    Merge pull request #3 from adityapalange/java_sdk_17
+    
+    updated java sdk 17
+
+[33mcommit 62ed9306ec76c833a8d67ccdd82892ebbd800108[m
+Author: Aditya Palange <adityapalange@gmail.com>
+Date:   Thu Aug 18 16:56:20 2022 +0530
+
+    updated java sdk 17
+
+[33mcommit d48160efdb937bdc8460e1acee919967390c0ecc[m
+Merge: f978641 4b439d8
+Author: Aditya Palange <32669712+adityapalange@users.noreply.github.com>
+Date:   Thu Aug 18 16:04:41 2022 +0530
+
+    Merge pull request #2 from adityapalange/feature-1
+    
+    Feature 1
+
+[33mcommit 4b439d832bba5eca92e25612a197c571023d095e[m
+Author: Adi
