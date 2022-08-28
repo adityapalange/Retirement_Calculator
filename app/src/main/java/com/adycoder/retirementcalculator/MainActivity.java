@@ -6,11 +6,14 @@ import androidx.databinding.DataBindingUtil;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.adycoder.retirementcalculator.databinding.ActivityMainBinding;
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
+import com.microsoft.appcenter.utils.async.AppCenterConsumer;
+import com.microsoft.appcenter.utils.async.AppCenterFuture;
 
 import java.util.HashMap;
 
@@ -27,8 +30,21 @@ public class MainActivity extends AppCompatActivity {
 
         AppCenter.start(getApplication(), getString(R.string.app_secret), Analytics.class, Crashes.class);
 
+        AppCenterFuture<Boolean> future = Crashes.hasCrashedInLastSession();
+
+        future.thenAccept(new AppCenterConsumer<Boolean>() {
+            @Override
+            public void accept(Boolean aBoolean) {
+                if (aBoolean) {
+                    Toast.makeText(MainActivity.this,
+                            "Oops! Sorry about that!",
+                            Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
         mAMBinding.calculateButton.setOnClickListener(view -> {
-//            Crashes.generateTestCrash();
+            Crashes.generateTestCrash();
             analyticsTrackEvent();
         });
 
