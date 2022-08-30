@@ -3,12 +3,21 @@ plugins {
 }
 
 android {
+
+    signingConfigs {
+        release {
+            storeFile file('E:\\AdyCoding\\Android_Coding\\Android_Git_Projects\\RetirementCalculator\\retirementkeystore.keystore')
+            storePassword 'adycoder@keystore_retcal'
+            keyAlias 'retirementkeystore'
+            keyPassword 'adycoder@keystore_retcal'
+        }
+    }
+
     compileSdk 32
 
     buildFeatures {
         dataBinding true
     }
-
 
     defaultConfig {
         applicationId "com.adycoder.retirementcalculator"
@@ -23,6 +32,7 @@ android {
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -45,8 +55,6 @@ dependencies {
     def appCenterSdkVersion = '4.4.5'
     implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
     implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
-
-
 
 
 }
