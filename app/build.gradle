@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
+
     compileSdk 32
 
     buildFeatures {
         dataBinding true
     }
-
 
     defaultConfig {
         applicationId "com.adycoder.retirementcalculator"
@@ -16,7 +16,6 @@ android {
         targetSdk 32
         versionCode 1
         versionName "1.0"
-
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -40,12 +39,11 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    androidTestImplementation 'com.microsoft.appcenter:espresso-test-extension:1.5'
 
     def appCenterSdkVersion = '4.4.5'
     implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
     implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
-
-
 
 
 }
